@@ -47,6 +47,23 @@ exports.createPages = async ({ graphql, actions }) => {
                         }
                     }
                 }
+                allProfiles {
+                    edges {
+                        node {
+                            education_body
+                            education_sub_title
+                            education_term
+                            experience_inner {
+                                experience_body
+                                experience_subtitle
+                                experience_term
+                            }
+                            education_title
+                            experience_title
+                            profile_title
+                        }
+                    }
+                }
             }
         }
     `)

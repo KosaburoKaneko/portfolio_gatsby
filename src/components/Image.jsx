@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import Img from 'gatsby-image';
 
 const Image = ({ data }) => (
-    <Img  />
+    <Img />
 )
 
 export default Image
